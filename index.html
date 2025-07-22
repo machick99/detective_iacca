@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riddle Game</title>
+  <style>
+    body { background: white; margin: 0; padding: 0; }
+    #game-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #answer-box {
+      padding: 0.5em;
+      font-size: 1em;
+      margin-bottom: 0.5em;
+      /* position is handled in JS for jitter */
+    }
+    #message-area {
+      font-size: 1em;
+      color: #333;
+      min-height: 1.2em;
+      margin-bottom: 0.5em;
+    }
+    #reset-btn {
+      padding: 0.5em 1em;
+      font-size: 1em;
+      /* now statically positioned under message */
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <input id="answer-box" type="text" autocomplete="off" />
+    <div id="message-area"></div>
+    <button id="reset-btn">Reset</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

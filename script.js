@@ -170,7 +170,7 @@
     const isCorrect = riddles[currentIndex] && hash === riddles[currentIndex].hash;
 
     // play sound randomly
-    const { soundChance = 0.9 } = riddles[currentIndex] || {};
+    const { soundChance = 0.5 } = riddles[currentIndex] || {};
     if (Math.random() < soundChance) playRandomSound();
 
     if (isCorrect) {

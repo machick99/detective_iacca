@@ -38,7 +38,7 @@
       soundChance: 0.7, // answer: "echo"
     },
       {
-      hash: "5fa3bacdc0729474b054d3cd7020f466402c11bba5497f89778c5f6d6ef92514", //
+      hash: "66714d1cd3b4d949269309021066ce2c1c8c8f4b6e1ffc9e8dcfe6901f468d0e", //
       clue: "QWxpIGNoZSBzYmF0dG9ubywgcGl1bWUgbGVnZ2VyZSBpbiB2b2xvLkJyZXZlIHBsYW5hdGEu", //
       soundChance: 0.7, // answer: "echo"
     },
@@ -182,7 +182,7 @@
 
       if (currentIndex >= riddles.length) {
         // completed all riddles
-        messageArea.textContent = "Guardami oltre al confine, riapro gli occhi al primo di dieci.";
+        messageArea.textContent = "Riapro gli occhi al primo di dieci. All'alba, guarda dall'ovest";
         input.disabled = true;
       }
     } else {
